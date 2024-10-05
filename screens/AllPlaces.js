@@ -1,12 +1,9 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
+import { StyleSheet, Text, View } from "react-native";
+
+import PlaceList from "../components/Places/PlaceList";
 
 export default function AllPlaces() {
-  return (
-    <View>
-      <Text>AllPlaces</Text>
-    </View>
-  )
+  return <PlaceList />;
 }
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({});
